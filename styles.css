@@ -136,3 +136,35 @@ nav ul {
     bottom: -10px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .countdown span {
+    width: 50px;
+    height: 50px;
+    font-weight: medium;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid#f1c40f;
+  }
+
+  .countdown {
+    width: 300px;
+    gap: 0;
+  }
+
+  .countdown span:after {
+    bottom: -30px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .launch-date {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.733);
+  }
+}
