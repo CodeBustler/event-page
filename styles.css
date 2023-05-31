@@ -82,12 +82,6 @@ nav ul {
   color: grey;
 }
 
-@keyframes anim {
-  100% {
-    transform: scale(1.04);
-  }
-}
-
 .countdown span:nth-child(1):after {
   content: 'Days';
 }
