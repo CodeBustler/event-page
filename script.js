@@ -1,5 +1,5 @@
 // Launch Date
-let launchDate = '1 June 2023 05:00 PM';
+let launchDate = '1 June 2024 05:00 PM';
 
 // Added Launch In HTML
 document.querySelector('.launch-date').innerHTML = launchDate;
